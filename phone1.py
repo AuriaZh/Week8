@@ -43,8 +43,19 @@ class iPhone:
 
 
 # Create instances of the iPhone class
-phone1 = iPhone(name="iPhone1", version="15", phone_number="123-456-789", color="White", model="15 Pro")
-phone2 = iPhone(name="iPhone2", version="15", phone_number="123-123-123", color="Purple", model="16")
+phone1 = iPhone(
+    name="iPhone1", 
+    version="15", 
+    phone_number="123-456-789", 
+    color="White", model="15 Pro"
+)
+phone2 = iPhone(
+    name="iPhone2", 
+    version="15", 
+    phone_number="123-123-123", 
+    color="Purple", 
+    model="16"
+)
 
 # Change names of the phones
 phone1.set_name("Auria's iPhone")
