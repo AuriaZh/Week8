@@ -47,7 +47,8 @@ phone1 = iPhone(
     name="iPhone1", 
     version="15", 
     phone_number="123-456-789", 
-    color="White", model="15 Pro"
+    color="White", 
+    model="15 Pro"
 )
 phone2 = iPhone(
     name="iPhone2", 
@@ -66,6 +67,7 @@ phone1.send_message(phone2, "Hello!")
 
 # Check messages on phone2
 phone2.check_messages()
+
 
 
 
